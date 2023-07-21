@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -9,7 +13,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header center">
         <div class="header__left">
             <a href="#">
                 <img src="./img/logo.png" alt="photo-logo">
@@ -32,41 +36,53 @@
     </div>
     <div class="demo">
         <div class="demo__img">
-            <img src="./img/demo_img.png" alt="demo img">
+            <img class="demo__img-big" src="./img/demo_img.png" alt="demo img">
         </div>
         <div class="demo__content">
-            <h1 class="demo__title">THE BRAND</h1>
-            <h2 class="demo__heading">OF LUXERIOUS FASHION</h2>
+            <div class="demo__info">
+                <h1 class="demo__title">THE BRAND</h1>
+                <h2 class="demo__heading">OF LUXERIOUS <span class="demo__heading-pink">FASHION</span></h2>
+            </div>
         </div>
     </div>
-    <div class="content">
+    <div class="content center">
         <div class="content__item">
-            <img src="./img/content_woman.svg" alt="woman photo">
-            <p class="content__text">30% OFF</p>
-            <div class="h3 content__heading">FOR WOMEN</div>
+            <img class="content__item-img" src="./img/content_woman.svg" alt="woman photo">
+            <div class="content__info">
+                <p class="content__text">30% OFF</p>
+                <h3 class="content__heading">FOR WOMEN</h3>
+            </div>
         </div>
         <div class="content__item">
-            <img src="./img/content_man.svg" alt="man photo">
-            <p class="content__text">HOT DEAL</p>
-            <div class="h3 content__heading">FOR MEN</div>
+            <img class="content__item-img" src="./img/content_man.svg" alt="man photo">
+            <div class="content__info">
+                <p class="content__text">HOT DEAL</p>
+                <h3 class="content__heading">FOR MEN</h3>
+            </div>
         </div>
         <div class="content__item">
-            <img src="./img/content_kid.svg" alt="kid photo">
-            <p class="content__text">NEW ARRIVALS</p>
-            <div class="h3 content__heading">FOR KIDS</div>
+            <img class="content__item-img" src="./img/content_kid.svg" alt="kid photo">
+            <div class="content__info">
+                <p class="content__text">NEW ARRIVALS</p>
+                <h3 class="content__heading">FOR KIDS</h3>
+            </div>
         </div>
         <div class="content__item content__item-big">
-            <img src="./img/content_big_photo.svg" alt="big photo">
-            <p class="content__text">LUXIROUS & TRENDY</p>
-            <div class="h3 content__heading">ACCESORIES</div>
+            <img class="content__item-img" src="./img/content_big_photo.svg" alt="big photo">
+            <div class="content__info content__info-big">
+                <p class="content__text">LUXIROUS & TRENDY</p>
+                <h3 class="content__heading">ACCESORIES</h3>
+            </div>
         </div>
     </div>
-    <div class="product">
-        <h2 class="product__heading">Fetured Items</h2>
-        <p class="product__text">Shop for items based on what we featured in this week</p>
+    <div class="product center">
+        <div class="product__top">
+            <h2 class="product__heading">Fetured Items</h2>
+            <p class="product__text">Shop for items based on what we featured in this week</p>
+        </div>
         <div class="product__item">
             <div class="product__card">
-                <img src="./img/product_card-1.svg" alt="" class="product__card-img">
+                <img class="product__card-img" src="./img/product_card-1.svg" alt="">
                 <div class="product__content">
                     <h3 class="product__content-heading">ELLERY X M'O CAPSULE</h3>
                     <p class="product__content-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -75,7 +91,7 @@
                 </div>
             </div>
             <div class="product__card">
-                <img src="./img/product_card-2.svg" alt="" class="product__card-img">
+                <img class="product__card-img product__card-women" src="./img/product_card-2.svg" alt="">
                 <div class="product__content">
                     <h3 class="product__content-heading">ELLERY X M'O CAPSULE</h3>
                     <p class="product__content-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -84,7 +100,7 @@
                 </div>
             </div>
             <div class="product__card">
-                <img src="./img/product_card-3.svg" alt="" class="product__card-img">
+                <img class="product__card-img" src="./img/product_card-3.svg" alt="">
                 <div class="product__content">
                     <h3 class="product__content-heading">ELLERY X M'O CAPSULE</h3>
                     <p class="product__content-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -93,7 +109,7 @@
                 </div>
             </div>
             <div class="product__card">
-                <img src="./img/product_card-4.svg" alt="" class="product__card-img">
+                <img class="product__card-img" src="./img/product_card-4.svg" alt="">
                 <div class="product__content">
                     <h3 class="product__content-heading">ELLERY X M'O CAPSULE</h3>
                     <p class="product__content-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -102,7 +118,7 @@
                 </div>
             </div>
             <div class="product__card">
-                <img src="./img/product_card-5.svg" alt="" class="product__card-img">
+                <img class="product__card-img" src="./img/product_card-5.svg" alt="">
                 <div class="product__content">
                     <h3 class="product__content-heading">ELLERY X M'O CAPSULE</h3>
                     <p class="product__content-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -111,7 +127,7 @@
                 </div>
             </div>
             <div class="product__card">
-                <img src="./img/product_card-6.svg" alt="" class="product__card-img">
+                <img class="product__card-img" src="./img/product_card-6.svg" alt="">
                 <div class="product__content">
                     <h3 class="product__content-heading">ELLERY X M'O CAPSULE</h3>
                     <p class="product__content-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -120,7 +136,9 @@
                 </div>
             </div>
         </div>
-        <button class="product__browse">Browse All Product</button>
+        <div class="product__bottom">
+            <button class="product__browse">Browse All Product</button>
+        </div>
     </div>
 </body>
 
